@@ -480,42 +480,6 @@
 
         <header>
           <h2 class="h2 article-title">Lo Último</h2>
-
-          <!-- INICIA ESTILO CARRUSEL -->
-          <style>
-            /* Estilos para el carrusel */
-            #carrusel {
-              width: 100%;
-              overflow: hidden;
-            }
-
-            #carrusel .contenedor-banners {
-              display: flex;
-              transition: transform 0.8s ease-in-out;
-            }
-
-            .banner {
-              width: 100%;
-              min-width: 100%;
-              border-radius: 10px;
-              overflow: hidden;
-            }
-
-            .banner img {
-              width: 100%;
-              height: auto;
-              display: block;
-            }
-
-            @media (max-width: 768px) {
-              .banner {
-                border-radius: 0;
-                /* Cambiar a esquinas cuadradas para tamaños de pantalla más pequeños */
-              }
-            }
-          </style>
-          <!-- FIN ESTILO CARRUSEL -->
-
         </header>
 
         <!-- MENÚ DAILY NEWS -->
@@ -573,58 +537,7 @@
 
         </div>
 
-        <!-- Inicia Carrusel -->
-
-        <body>
-
-          <div id="carrusel">
-            <div class="contenedor-banners">
-              <!-- Banner 1 -->
-              <div class="banner"><img
-                  src="https://images.vix.com/prd/hero-ctv/651daccd2fed5f8e203cecdb/2803871e4611dfbc6b2c1ae023eab96a?tr=w-900,ar-4-1,q-80"
-                  alt="Banner 1"></div>
-              <!-- Banner 2 -->
-              <div class="banner"><img
-                  src="https://images.vix.com/prd/hero-ctv/6553b1ec4884b57fb2f50916/00f945501cd97583e612aeac201cbd57?tr=w-1280,ar-4-1,q-80"
-                  alt="Banner 2"></div>
-              <!-- Banner 3 -->
-              <div class="banner"><img
-                  src="https://images.vix.com/prd/hero-ctv/6553b1ec4884b57fb2f50916/00f945501cd97583e612aeac201cbd57?tr=w-1280,ar-4-1,q-80"
-                  alt="Banner 3"></div>
-              <!-- Banner 4 -->
-              <div class="banner"><img
-                  src="https://images.vix.com/prd/hero-ctv/6553b1ec4884b57fb2f50916/00f945501cd97583e612aeac201cbd57?tr=w-1280,ar-4-1,q-80"
-                  alt="Banner 4"></div>
-              <!-- Banner 5 -->
-              <div class="banner"><img
-                  src="https://images.vix.com/prd/hero-ctv/6553b1ec4884b57fb2f50916/00f945501cd97583e612aeac201cbd57?tr=w-1280,ar-4-1,q-80"
-                  alt="Banner 5"></div>
-            </div>
-          </div>
-
-          <script>
-            document.addEventListener('DOMContentLoaded', function () {
-              const contenedorBanners = document.querySelector('.contenedor-banners');
-              let index = 0;
-
-              function cambiarBanner() {
-                index = (index + 1) % 5; // Cambiar entre 0 y 4 para los 5 banners
-                const translateValue = -index * 100 + '%';
-                contenedorBanners.style.transform = 'translateX(' + translateValue + ')';
-              }
-
-              setInterval(cambiarBanner, 4000); // Cambiar cada 4 segundos
-            });
-          </script>
-        </body>
-        <!-- Termina carrusel -->
-
-        <!-- INICIA espacio entre carrusel y noticias -->
-        <ul class="filter-list">
-          <li class="filter-item">
-          </li>
-        </ul>
-        <!-- FIN espacio entre carrusel y noticias -->
+        
 
 
         <section class="blog-posts">
@@ -1263,13 +1176,13 @@
                   <img src="./assets/images/favicon.ico" alt="Jessica miller" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zoy Navidad 🎅🏻</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>DW</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
 
                   <!-- inicia tv en vivo -->
 
-                  <iframe src="p/navidad.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="p/dw.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
 
                   <!-- fin tv en vivo -->
 
@@ -1294,12 +1207,12 @@
                   <img src="./assets/images/favicon.ico" alt="Emily evans" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zoy SPORTS 🇧🇴</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Estrella TV</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <!-- inicia radio en vivo -->
 
-                  <iframe src="p/lbf1.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="p/estrellatv.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
 
                   <!-- fin radio en vivo -->
 
@@ -1322,12 +1235,12 @@
                   <img src="./assets/images/favicon.ico" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zoy PITUFO</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>K de Drama</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <!-- inicia radio en vivo -->
 
-                  <iframe src="p/pitufos.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="p/kdrama.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
                   <!-- fin radio en vivo -->
 
                   <p>
@@ -1349,12 +1262,12 @@
                   <img src="./assets/images/favicon.ico" alt="Henry william" width="60" data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Zoy AMOR</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Telemundo 49</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <!-- inicia radio en vivo -->
 
-                  <iframe src="p/amor.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="p/t49.html" width="310" height="240" frameborder="0" allowfullscreen></iframe>
                   <!-- fin radio en vivo -->
 
                   <p>
